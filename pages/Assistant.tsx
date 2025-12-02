@@ -98,14 +98,15 @@ const Assistant: React.FC = () => {
                   {msg.isError ? (
                     <span className="text-red-500">{msg.text}</span>
                   ) : (
-                    <ReactMarkdown 
-                      className="prose prose-sm max-w-none prose-p:my-1 prose-headings:my-2 prose-ul:my-1 prose-li:my-0"
-                      components={{
-                        strong: ({node, ...props}) => <span className={`font-bold ${msg.role === 'user' ? 'text-white' : 'text-solar-700'}`} {...props} />
-                      }}
-                    >
-                      {msg.text}
-                    </ReactMarkdown>
+                    <div className="prose prose-sm max-w-none prose-p:my-1 prose-headings:my-2 prose-ul:my-1 prose-li:my-0">
+                      <ReactMarkdown 
+                        components={{
+                          strong: ({node, ...props}) => <span className={`font-bold ${msg.role === 'user' ? 'text-white' : 'text-solar-700'}`} {...props} />
+                        }}
+                      >
+                        {msg.text}
+                      </ReactMarkdown>
+                    </div>
                   )}
                 </div>
               </div>
