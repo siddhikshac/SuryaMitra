@@ -131,7 +131,7 @@ const Assistant: React.FC = () => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Ask about cleaning, monsoons, or subsidies..."
-              className="w-full pl-6 pr-14 py-4 rounded-xl border border-slate-200 focus:ring-2 focus:ring-solar-500 focus:border-solar-500 transition-all shadow-sm outline-none bg-white text-slate-900 placeholder-slate-400"
+              className="w-full pl-6 pr-14 py-4 rounded-xl border border-slate-700 focus:ring-2 focus:ring-solar-500 focus:border-solar-500 transition-all shadow-sm outline-none bg-slate-900 text-white placeholder-slate-400"
             />
             <button 
               type="submit" 

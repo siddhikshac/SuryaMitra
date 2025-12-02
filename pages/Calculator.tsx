@@ -75,7 +75,7 @@ const Calculator: React.FC = () => {
                 min="100"
                 value={formData.bill}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-solar-500 focus:border-solar-500 transition-colors bg-white text-slate-900 placeholder-slate-400"
+                className="w-full px-4 py-3 rounded-lg border border-slate-700 focus:ring-2 focus:ring-solar-500 focus:border-solar-500 transition-colors bg-slate-900 text-white placeholder-slate-400"
                 placeholder="e.g. 3000"
               />
             </div>
@@ -88,7 +88,7 @@ const Calculator: React.FC = () => {
                 required
                 value={formData.city}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-solar-500 focus:border-solar-500 transition-colors bg-white text-slate-900 placeholder-slate-400"
+                className="w-full px-4 py-3 rounded-lg border border-slate-700 focus:ring-2 focus:ring-solar-500 focus:border-solar-500 transition-colors bg-slate-900 text-white placeholder-slate-400"
                 placeholder="e.g. Jaipur, Rajasthan"
               />
             </div>
@@ -102,7 +102,7 @@ const Calculator: React.FC = () => {
                 min="50"
                 value={formData.roofArea}
                 onChange={handleChange}
-                className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-solar-500 focus:border-solar-500 transition-colors bg-white text-slate-900 placeholder-slate-400"
+                className="w-full px-4 py-3 rounded-lg border border-slate-700 focus:ring-2 focus:ring-solar-500 focus:border-solar-500 transition-colors bg-slate-900 text-white placeholder-slate-400"
                 placeholder="e.g. 500"
               />
             </div>
